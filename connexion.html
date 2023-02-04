@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login page | Connexion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+
+    <h1 style="user-select: none;">TAXIGO</h1>
+    <div class="container-form">
+        <form action="" method="post">
+            <form action="verification.php" method="POST">
+                <h3>Connexion</h3>
+
+                <p style="text-align: left;">Nom d'utilisateur</p>
+                <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+
+                <p style="text-align: left;">Mot de passe</p>
+                <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+
+                <input type="submit" id='submit' value='Se connecter'>
+                <p style="text-align: left;"><a href="#">Mot de passe oublié?</a></p>
+                <a href="Inscription.html">
+                    <p class="submitp">Inscrivez-vous <i class="fa-solid fa-user-plus"></i></p>
+                </a>
+
+            </form>
+        </form>
+    </div>
+
+    <footer>
+        <div class="contain-foot">
+            <div class="left"><p>Passer à la version Premium</p></div>
+            <div class="center"><p>Fiabilité, rapidité, expertise faites confiance à <span style="font-weight: 600;">TAXIGO</span></p></div>
+            <div class="right"><p class="help">Aide et soutien</p> <p>&copy;2023 TAXIGO</p></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

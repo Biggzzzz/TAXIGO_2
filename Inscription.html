@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login page | Inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="    width: 100%;
+background: url('../image/tree.jpg') center no-repeat;
+background-size: cover;
+position: relative;
+display: block;
+font-family: 'poppins',Arial, Helvetica, sans-serif !important;">
+
+    <h1 style="user-select: none;">TAXIGO</h1>
+    <div class="container-form">
+        <form action="" method="post">
+            <form action="verification.php" method="POST">
+                <h3>Inscription</h3>
+
+                <p style="text-align: left;"></b>Nom</p>
+                <input type="text" placeholder="Entrer le nom" name="name" required minlength="4" maxlength="12">
+
+                <p style="text-align: left;">Prenom</p>
+                <input type="text" placeholder="Entrer le Prenom" name="firstnome" required minlength="4"
+                    maxlength="12">
+
+                <p style="text-align: left;">Nom d'utilisateur</p>
+                <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required minlength="4"
+                    maxlength="12">
+
+                <p style="text-align: left;">Numero de telephone</p>
+                <input type="tel" placeholder="Entrer le numero de telephone" name="username" required minlength="4"
+                    maxlength="12">
+
+                <p style="text-align: left;">Mot de passe</p>
+                <input type="password" placeholder="Entrer un mot de passe" name="password" required>
+
+                <p style="text-align: left;">Confirmation</p>
+                <input type="password" placeholder="Confirmer le mot de passe" name="password" required>
+
+                <p style="font-size: 12px;"><input type="checkbox" name="" id="" required
+                        style="margin-top: 10px;margin-right: 5px;cursor: pointer;">En confirmant, durant votre
+                    inscription, les avoir lues
+                    et approuvées, vous déclarez accepter ces conditions générales d'utilisation pour <a
+                        href="./confidentialité/Politique de confidentialité.pdf">TAXIGO</a>.</p>
+
+                <input type="submit" id='submit' value="S'Inscrire">
+                <a href="connexion.html">
+                    <p class="submitp">Se connecter <i class="fa-solid fa-right-to-bracket"></i></p>
+                </a>
+
+            </form>
+    </div>
+
+    <footer>
+        <div class="contain-foot">
+            <div class="left"><p>Passer à la version Premium</p></div>
+            <div class="center"><p>Fiabilité, rapidité, expertise faites confiance à <span style="font-weight: 600;">TAXIGO</span></p></div>
+            <div class="right"><p class="help">Aide et soutien</p> <p>&copy;2023 TAXIGO</p></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
