@@ -1,0 +1,149 @@
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff000;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+//-------------- Formulaire de connexion ------------------//
+.container-form {
+    text-align: center;
+    width: 500px;
+    margin: 0 10%;
+    margin-top: 10%;
+
+    h3 {
+        font-family: 'poppins';
+        text-align: center;
+        margin: 0 auto;
+        font-size: 40px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+
+    p {
+        font-family: 'poppins', Arial, Helvetica, sans-serif;
+        margin-bottom: 2px;
+        font-size: 14px;
+    }
+
+    a {
+        font-family: 'poppins';
+        color: #525252;
+        cursor: pointer;
+    }
+
+    /* --------------form----------------- */
+    form {
+        text-align: center;
+        margin-left: 50%;
+        font-family: 'poppins';
+        width: 120%;
+        padding: 60px;
+        border: 1px solid #f1f1f1;
+        background: #fff;
+        box-shadow: 0 0 20px 0 #bebebe33, 0 5px 5px 0 #bebebe33;
+
+        /* Full-width inputs */
+        input[type=text],
+        input[type=password],
+        input[type=tel] {
+            font-family: 'poppins', Arial, Helvetica, sans-serif;
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            transition: .3s;
+
+            &:focus {
+                transition: .3s;
+                outline: none;
+                box-shadow: 0px 2px 5px 0px #c5c5c5;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+        }
+
+        /* Set a style for all buttons */
+        #submit {
+            font-family: 'poppins', Arial, Helvetica, sans-serif;
+            background-color: #000;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: 1px solid transparent;
+            cursor: pointer;
+            width: 100%;
+            transition: .3s;
+
+            &:hover {
+                transition: .3s;
+                background-color: #ffee00;
+                color: #525252;
+                border: 1px solid #ffee00;
+            }
+        }
+
+        .submitp {
+            font-family: 'poppins', Arial, Helvetica, sans-serif;
+            background-color: #000;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: 1px solid transparent;
+            cursor: pointer;
+            width: 100%;
+            transition: .3s;
+            color: #fff;
+            text-align: center;
+
+
+            &:hover {
+                transition: .3s;
+                background-color: #ffee00;
+                color: #525252;
+                border: 1px solid #ffee00;
+            }
+
+        }
+    }
+
+}
+
+.contain.boost{
+    width: 100%;
+}
+
+footer{
+    .contain-foot{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 1%;
+        margin-top: 5%;
+        color: #fff;
+        font-size: 12px;
+        cursor: pointer;
+        margin-bottom: 5px;
+
+        .center{
+            font-size: 15px;
+        }
+        .right{
+            display: flex;
+            .help{
+                margin-right: 20px;
+
+            }
+        }
+    }
+}

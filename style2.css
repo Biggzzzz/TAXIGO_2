@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    font-size: 14px;
+    background-color: #fcfdff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    box-shadow: 0 2px 10px 0 transparent;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff000;
+    font-style: italic;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    margin-left: 30px;
+    margin-top: 20%;
+}
+
+i {
+    margin-top: 10px;
+    vertical-align: middle;
+    color: #fff;
+}
+
+img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.banner-1 {
+    background: linear-gradient(-180deg, #ffee008e, #000000a8), url("../image/sport2.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-1 {
+    padding-top: 100px;
+    margin-left: 20%;
+}
+
+.container-1 h2 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.container-1 p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.p {
+    display: flex;
+    padding: 10px 0;
+    padding-left: 20px;
+    background-color: #000;
+    width: 82%;
+    margin: 0 50px;
+    margin-left: 0;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+
+input {
+    width: 180%;
+    outline: none;
+    padding: 10px 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.dest {
+    margin-left: 190px;
+}
+
+.post {
+    margin-right: 30px;
+}
+
+button {
+    align-items: center;
+    background-color: #fff000;
+    border: none;
+    padding: 10px 30px;
+    width: 50%;
+    transition: .3s;
+    margin-left: 15% !important;
+    font-weight: 600;
+    color: #fff;
+}
+
+button:hover {
+    box-shadow: 0 5px 30px 0 #fff000;
+    transition: .3s;
+    color: #2c2c2c;
+}
+.btnn:hover button:hover{
+    box-shadow: none;
+}
+.btnn.n2{
+    margin-left: -100px;
+}
+button i {
+    margin-top: 0;
+    transition: .3s;
+}
+
+button:hover i {
+    color: #2c2c2c;
+    transition: .3s;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+}
+
+.contain-foot {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0;
+    font-size: 12px;
+    margin: 0px 60px;
+}
+
+.right {
+    display: flex;
+}
+
+.right p {
+    margin-left: 10px;
+}

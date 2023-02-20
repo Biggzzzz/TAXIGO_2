@@ -1,51 +1,64 @@
-<!Doctype html>
+<!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chauffeur</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <title>Interface chauffeur</title>
+    <link rel="stylesheet" href="./css/style2.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
-    <section id="menu">
-      <div class="search">
-        <i class="fas fa-search"></i>
-        <input type="text" name="" id="" placeholder="search">
-    </div>
+<body>
 
-      <div class="items">
-        <img src="./image/car.jpg" width="60" class="rounded">
-      <span class="badge bg-success badge-dot"></span>
-    </div>
-    <div class="pt-1">
-      <p class="fw-bold mb-0">Marie Horwitz</p>
-      <p class="small text-muted">Hello, Are you there?</p>
-    </div>
-  </div>
-  <div class="pt-1">
-    <p class="small text-muted mb-1">Just now</p>
-    <span class="badge bg-danger rounded-pill float-end">3</span>
-  </div>
-      </div>
-  </section>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>TAXIGO</h1>
+            </div>
 
-  <section id="interface-messenger">
-      <div class="navigation-m">
-          <div class="n1">
-              <div class="">
-                  <i class="fas fa-bars" id="menu-btn"></i>
-              </div>
-          </div>
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-bell"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><img src="./image/pink1.jpg" alt="" width="500px"></li>
+                <li class="nav-item"><a href="#" class="nav-link"></i></a></li>
+            </ul>
+        </div>
+    </header>
 
-          <div class="profile">
-              <i class="fa-solid fa-bell"></i>
-              <img src="./image/shoes.jpg" alt="" width="500">
-          </div>
-      </div>
+    <h3 style="margin-top: 100px;margin-bottom: 50px;;text-align: center;">Liste des prospects actuels</h3>
+    <table class="table mt-4" style="margin: 0 10%;margin-right: 100px!important; max-width: 80%;">
+        <thead">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nom du client</th>
+            <th scope="col">position</th>
+            <th scope="col">destination</th>
+            <th>accepter</th>
+            <th>decliner</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">-</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="btnn"><button type="submit" class="sub" style="background-color: #00ff40;"><i class="fas fa-check"></i></button></td>
+            <td class="btnn n2"><button type="submit" style="background-color: #ff2d2d;"><i class="fa-solid fa-xmark"></i></button></td>
+          </tr>
+        </tbody>
+      </table>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+    <footer style="background-color: #000;padding-top: 20px;">
+        <div class="contain-foot" style='background-color: #000;'>
+            <div class="left"><p>Passer à la version Premium</p></div>
+            <div class="center"><p>Fiabilité, rapidité, expertise faites confiance à <span style="font-weight: 600;">TAXIGO</span></p></div>
+            <div class="right"><p class="help">Aide et soutien</p> <p>&copy;2023 TAXIGO</p></div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.0/chart.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
 </html>

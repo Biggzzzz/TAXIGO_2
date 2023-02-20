@@ -9,15 +9,10 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Login page | Inscription</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/login.css">
 </head>
 
-<body style="    width: 100%;
-background: url('../image/tree.jpg') center no-repeat;
-background-size: cover;
-position: relative;
-display: block;
-font-family: 'poppins',Arial, Helvetica, sans-serif !important;">
+<body>
 
     <h1 style="user-select: none;">TAXIGO</h1>
     <div class="container-form">
@@ -25,39 +20,33 @@ font-family: 'poppins',Arial, Helvetica, sans-serif !important;">
             <form action="verification.php" method="POST">
                 <h3>Inscription</h3>
 
-                <p style="text-align: left;"></b>Nom</p>
-                <input type="text" placeholder="Entrer le nom" name="name" required minlength="4" maxlength="12">
+                <p style="text-align: left;">Nom</p>
+                <input type="text" placeholder="Entrer le nom" name="" required>
 
                 <p style="text-align: left;">Prenom</p>
-                <input type="text" placeholder="Entrer le Prenom" name="firstnome" required minlength="4"
-                    maxlength="12">
+                <input type="text" placeholder="Entrer Prenom" name="" required>
 
                 <p style="text-align: left;">Nom d'utilisateur</p>
-                <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required minlength="4"
-                    maxlength="12">
+                <input type="text" placeholder="Entrer le nom d'utilisateur" name="" required>
 
-                <p style="text-align: left;">Numero de telephone</p>
-                <input type="tel" placeholder="Entrer le numero de telephone" name="username" required minlength="4"
-                    maxlength="12">
+                <p style="text-align: left;">Numéro de telephone</p>
+                <input type="tel" placeholder="Entrer votre numero de telephone" name="" required>
 
                 <p style="text-align: left;">Mot de passe</p>
-                <input type="password" placeholder="Entrer un mot de passe" name="password" required>
+                <input type="password" placeholder="Entrer le mot de passe" name="password" required>
 
-                <p style="text-align: left;">Confirmation</p>
+                <p style="text-align: left;">Confirmer le mot de passe</p>
                 <input type="password" placeholder="Confirmer le mot de passe" name="password" required>
 
-                <p style="font-size: 12px;"><input type="checkbox" name="" id="" required
-                        style="margin-top: 10px;margin-right: 5px;cursor: pointer;">En confirmant, durant votre
-                    inscription, les avoir lues
-                    et approuvées, vous déclarez accepter ces conditions générales d'utilisation pour <a
-                        href="./confidentialité/Politique de confidentialité.pdf">TAXIGO</a>.</p>
+                <input type="submit" id='submit' value="S'inscrire">
 
-                <input type="submit" id='submit' value="S'Inscrire">
+                <p style="text-align: left; font-size: 12px;"> <input type="checkbox" name="" id="" style="cursor: pointer;" required>J'ai lu et j'accepte les Conditions d'utilisation de <a href="./confidentialité/Politique de confidentialité.pdf">TAXIGO</a></p>
                 <a href="connexion.html">
-                    <p class="submitp">Se connecter <i class="fa-solid fa-right-to-bracket"></i></p>
+                    <p class="submitp">Connectez-vous <i class="fa-solid fa-right-to-bracket"></i></p>
                 </a>
 
             </form>
+        </form>
     </div>
 
     <footer>

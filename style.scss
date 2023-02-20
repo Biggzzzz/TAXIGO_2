@@ -1,0 +1,21 @@
+@import "../libs/reset.scss";
+@import "font.scss";
+@import "./login.scss";
+@import"./dashboard.scss";
+
+body{
+    width: 100%;
+    background-color: #fcfdff !important;
+    position: relative;
+    display: flex;
+    font-family: 'poppins',Arial, Helvetica, sans-serif !important;
+}
+
+#body{
+    width: 100%;
+    background: url('../image/valley.jpg') center no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+    font-family: 'poppins',Arial, Helvetica, sans-serif !important;
+}
